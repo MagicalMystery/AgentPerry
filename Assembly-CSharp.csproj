@@ -61,10 +61,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\level1.cs" />
-    <Compile Include="Assets\Scenes\StartScreen.cs" />
+    <Compile Include="Assets\Scenes\Levels\level1.cs" />
+    <Compile Include="Assets\Scenes\LevelSelect\LevelSelectScene.cs" />
+    <Compile Include="Assets\Scenes\StartScreen\StartScreen.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelMetadata.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelsPackage.cs" />
     <Compile Include="Assets\Scripts\SimplePlatformController.cs" />
+    <Compile Include="Assets\Scripts\UI\LevelSlot.cs" />
     <Compile Include="Assets\Scripts\Utils\BaseScene.cs" />
+    <Compile Include="Assets\Scripts\Utils\Session.cs" />
+    <Compile Include="Assets\Scripts\Utils\Singleton.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
