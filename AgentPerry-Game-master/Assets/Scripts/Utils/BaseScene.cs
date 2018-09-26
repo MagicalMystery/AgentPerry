@@ -9,14 +9,16 @@ namespace RunAndJump
 
         public enum Scene
         {
-            StartScreen,
-            level1
+            SampleScene,
+            level1,
+            LevelScreen,
+            LevelHandler
         }
 
         protected virtual void Awake()
         {
            // AudioPlayer.Instantiate();
-         //   Session.Instantiate();
+         // Session.Instantiate();
         }
 
         protected void GoToScene(Scene scene)
