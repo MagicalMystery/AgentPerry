@@ -1,0 +1,4 @@
+#Thu Nov 01 23:43:07 PDT 2018
+base.0=/Users/meghaaswathappa/Documents/CSCI-526/Perry-new/Temp/gradleOut/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
